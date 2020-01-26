@@ -1,3 +1,9 @@
+PATH
+  remote: ../my_engine
+  specs:
+    my_engine (0.1.0)
+      rails (~> 6.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,6 +214,7 @@ DEPENDENCIES
   chromedriver-helper
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  my_engine!
   puma (~> 3.11)
   rails (~> 6.0.0.beta1)
   sass-rails (~> 5.0)
