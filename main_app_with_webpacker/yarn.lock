@@ -4450,6 +4450,11 @@ multicast-dns@^6.0.1:
 my_engine@../my_engine:
   version "0.1.0"
 
+my_second_engine@../my_second_engine:
+  version "0.1.0"
+  dependencies:
+    my_engine "../my_engine"
+
 nan@^2.12.1, nan@^2.13.2:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
