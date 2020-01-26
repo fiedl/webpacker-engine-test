@@ -1,0 +1,10 @@
+{
+  "name": "my_engine",
+  "version": "0.1.0",
+  "description": "Test engine",
+  "main": "./app/javascript/my_engine/index.js",
+  "directories": {
+    "lib": "./app/javascript/my_engine"
+  },
+  "license": "MIT"
+}
