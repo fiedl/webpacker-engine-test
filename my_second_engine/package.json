@@ -1,0 +1,13 @@
+{
+  "name": "my_second_engine",
+  "version": "0.1.0",
+  "description": "Second test engine",
+  "main": "./app/javascript/my_second_engine/index.js",
+  "directories": {
+    "lib": "./app/javascript/my_second_engine"
+  },
+  "dependencies": {
+    "my_engine": "../my_engine"
+  },
+  "license": "MIT"
+}

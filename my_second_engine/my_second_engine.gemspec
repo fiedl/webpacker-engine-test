@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = MySecondEngine::VERSION
   spec.authors     = ["Sebastian Fiedlschuster"]
   spec.email       = ["github@fiedlschuster.de"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of MySecondEngine."
-  spec.description = "TODO: Description of MySecondEngine."
+  spec.homepage    = "https://github.com/fiedl/webpacker-engine-test"
+  spec.summary     = "Summary of MySecondEngine."
+  spec.description = "Description of MySecondEngine."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 6.0.2", ">= 6.0.2.1"
+  spec.add_dependency 'my_engine', '>= 0.1.0'
 
   spec.add_development_dependency "sqlite3"
 end
